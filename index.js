@@ -1,4 +1,4 @@
-import chalk from "chalk" // hello im gonna cause a conflict
+import chalk from "chalk" // this is the cool library
 
 console.log(chalk.cyan("It works"));
 
