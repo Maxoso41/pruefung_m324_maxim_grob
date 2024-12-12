@@ -3,14 +3,16 @@ export default {
     browser: true,
     es2021: true,
   },
-  extends: ['eslint:recommended'],
+  extends: [
+    'eslint:recommended',
+  ],
   parserOptions: {
     ecmaVersion: 12,
     sourceType: 'module',
   },
   rules: {
-    'no-unused-vars': 'error',
-    'prefer-const': 'error',
-    eqeqeq: 'error',
+    'no-unused-vars': 'error', 
+    'prefer-const': 'error', 
+    'eqeqeq': 'error',  
   },
 };
