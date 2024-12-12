@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "start": "node index.js"
+    "start": "node index.js",
+    "prestart": "convert.sh"
   },
   "author": "",
   "license": "ISC",
