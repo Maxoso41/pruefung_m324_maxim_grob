@@ -1,4 +1,4 @@
-import chalk from "chalk"
+import chalk from "chalk" // this is the cool library
 
 console.log(chalk.cyan("It works"));
 
